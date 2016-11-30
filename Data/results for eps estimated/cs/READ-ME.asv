@@ -1,0 +1,10 @@
+
+% Coverage of Two Sets
+
+CS = [CS(C,E) CS(C,N) CS(E,C) CS(E,N) CS(N,C) CS(N,E)] 
+
+C: cone-MOEA
+E: eps-MOEA
+N: NSGA-II
+
+CS(.,.) representa um vetor coluna 50x1; logo, CS representa uma matriz 50x6.

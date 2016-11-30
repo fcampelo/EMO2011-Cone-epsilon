@@ -1,0 +1,133 @@
+load results_summary.mat
+
+TDeb52(:,1) = [Deb52.gamma.Ranksum.CxE;
+    Deb52.gamma.Ranksum.CxN;
+    Deb52.gamma.Ranksum.ExN;
+    Deb52.delta.Ranksum.CxE;
+    Deb52.delta.Ranksum.CxN;
+    Deb52.delta.Ranksum.ExN;
+    Deb52.hv.Ranksum.CxE;
+    Deb52.hv.Ranksum.CxN;
+    Deb52.hv.Ranksum.ExN;
+    Deb52.cs.Ranksum.CxE;
+    Deb52.cs.Ranksum.CxN;
+    Deb52.cs.Ranksum.ExN;];
+
+TDeb52(:,2) = [Deb52.gamma.HL.CxE;
+    Deb52.gamma.HL.CxN;
+    Deb52.gamma.HL.ExN;
+    Deb52.delta.HL.CxE;
+    Deb52.delta.HL.CxN;
+    Deb52.delta.HL.ExN;
+    Deb52.hv.HL.CxE;
+    Deb52.hv.HL.CxN;
+    Deb52.hv.HL.ExN;
+    Deb52.cs.HL.CxE;
+    Deb52.cs.HL.CxN;
+    Deb52.cs.HL.ExN;];
+
+TPol(:,1) = [Pol.gamma.Ranksum.CxE;
+    Pol.gamma.Ranksum.CxN;
+    Pol.gamma.Ranksum.ExN;
+    Pol.delta.Ranksum.CxE;
+    Pol.delta.Ranksum.CxN;
+    Pol.delta.Ranksum.ExN;
+    Pol.hv.Ranksum.CxE;
+    Pol.hv.Ranksum.CxN;
+    Pol.hv.Ranksum.ExN;
+    Pol.cs.Ranksum.CxE;
+    Pol.cs.Ranksum.CxN;
+    Pol.cs.Ranksum.ExN;];
+
+TPol(:,2) = [Pol.gamma.HL.CxE;
+    Pol.gamma.HL.CxN;
+    Pol.gamma.HL.ExN;
+    Pol.delta.HL.CxE;
+    Pol.delta.HL.CxN;
+    Pol.delta.HL.ExN;
+    Pol.hv.HL.CxE;
+    Pol.hv.HL.CxN;
+    Pol.hv.HL.ExN;
+    Pol.cs.HL.CxE;
+    Pol.cs.HL.CxN;
+    Pol.cs.HL.ExN;];
+
+TZdt1(:,1) = [Zdt1.gamma.Ranksum.CxE;
+    Zdt1.gamma.Ranksum.CxN;
+    Zdt1.gamma.Ranksum.ExN;
+    Zdt1.delta.Ranksum.CxE;
+    Zdt1.delta.Ranksum.CxN;
+    Zdt1.delta.Ranksum.ExN;
+    Zdt1.hv.Ranksum.CxE;
+    Zdt1.hv.Ranksum.CxN;
+    Zdt1.hv.Ranksum.ExN;
+    Zdt1.cs.Ranksum.CxE;
+    Zdt1.cs.Ranksum.CxN;
+    Zdt1.cs.Ranksum.ExN;];
+
+TZdt1(:,2) = [Zdt1.gamma.HL.CxE;
+    Zdt1.gamma.HL.CxN;
+    Zdt1.gamma.HL.ExN;
+    Zdt1.delta.HL.CxE;
+    Zdt1.delta.HL.CxN;
+    Zdt1.delta.HL.ExN;
+    Zdt1.hv.HL.CxE;
+    Zdt1.hv.HL.CxN;
+    Zdt1.hv.HL.ExN;
+    Zdt1.cs.HL.CxE;
+    Zdt1.cs.HL.CxN;
+    Zdt1.cs.HL.ExN;];
+
+TZdt6(:,1) = [Zdt6.gamma.Ranksum.CxE;
+    Zdt6.gamma.Ranksum.CxN;
+    Zdt6.gamma.Ranksum.ExN;
+    Zdt6.delta.Ranksum.CxE;
+    Zdt6.delta.Ranksum.CxN;
+    Zdt6.delta.Ranksum.ExN;
+    Zdt6.hv.Ranksum.CxE;
+    Zdt6.hv.Ranksum.CxN;
+    Zdt6.hv.Ranksum.ExN;
+    Zdt6.cs.Ranksum.CxE;
+    Zdt6.cs.Ranksum.CxN;
+    Zdt6.cs.Ranksum.ExN;];
+
+TZdt6(:,2) = [Zdt6.gamma.HL.CxE;
+    Zdt6.gamma.HL.CxN;
+    Zdt6.gamma.HL.ExN;
+    Zdt6.delta.HL.CxE;
+    Zdt6.delta.HL.CxN;
+    Zdt6.delta.HL.ExN;
+    Zdt6.hv.HL.CxE;
+    Zdt6.hv.HL.CxN;
+    Zdt6.hv.HL.ExN;
+    Zdt6.cs.HL.CxE;
+    Zdt6.cs.HL.CxN;
+    Zdt6.cs.HL.ExN;];
+
+TDtlz2(:,1) = [Dtlz2.gamma.Ranksum.CxE;
+    Dtlz2.gamma.Ranksum.CxN;
+    Dtlz2.gamma.Ranksum.ExN;
+    Dtlz2.delta.Ranksum.CxE;
+    Dtlz2.delta.Ranksum.CxN;
+    Dtlz2.delta.Ranksum.ExN;
+    Dtlz2.hv.Ranksum.CxE;
+    Dtlz2.hv.Ranksum.CxN;
+    Dtlz2.hv.Ranksum.ExN;
+    Dtlz2.cs.Ranksum.CxE;
+    Dtlz2.cs.Ranksum.CxN;
+    Dtlz2.cs.Ranksum.ExN;];
+
+TDtlz2(:,2) = [Dtlz2.gamma.HL.CxE;
+    Dtlz2.gamma.HL.CxN;
+    Dtlz2.gamma.HL.ExN;
+    Dtlz2.delta.HL.CxE;
+    Dtlz2.delta.HL.CxN;
+    Dtlz2.delta.HL.ExN;
+    Dtlz2.hv.HL.CxE;
+    Dtlz2.hv.HL.CxN;
+    Dtlz2.hv.HL.ExN;
+    Dtlz2.cs.HL.CxE;
+    Dtlz2.cs.HL.CxN;
+    Dtlz2.cs.HL.ExN;];
+
+T = [TDeb52 TPol TZdt1 TZdt6 TDtlz2];

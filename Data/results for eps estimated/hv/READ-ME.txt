@@ -1,0 +1,3 @@
+s1: data for cone-MOEA
+s2: data for eps-MOEA
+s3: data for NSGA-II
